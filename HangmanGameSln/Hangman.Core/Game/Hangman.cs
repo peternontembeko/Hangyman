@@ -93,7 +93,7 @@ namespace Hangman.Core.Game
                     {
                         Console.SetCursorPosition(0, 16);
                         Console.ForegroundColor = ConsoleColor.Red;
-                        Console.WriteLine($"Game over!.....  Word is {currentWord}                                                                  ");
+                        Console.WriteLine($"Game over!.....  Word is {currentWord} )                                                                 ");
                         break;
                     }
                 }
@@ -102,7 +102,7 @@ namespace Hangman.Core.Game
                 {
                     Console.SetCursorPosition(0, 16);
                     Console.ForegroundColor = ConsoleColor.Blue;
-                    Console.WriteLine($"Congradulations you got correct word:  {currentWord}                                                    ");
+                    Console.WriteLine($"Congradulations you got correct word:  {currentWord})                                                    ");
                     break;
                 }
             }
